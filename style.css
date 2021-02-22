@@ -1,3 +1,50 @@
-a {
-    font
+#first-link {
+    width: 100px;
+    height: 20px;
+    background-color: aqua;
+    border-radius: 5px;
+    border: solid blueviolet;
+    transition: background-color 2s;
+    transition-delay: 3s;
 }
+    #first-link:hover {
+        width: 400px;
+        height: 80px;
+        background-color:darkblue;
+        border: solid aqua;
+    }
+
+#second-link {
+    background-color: chartreuse;
+    border:cornflowerblue solid;
+    color:crimson;
+    text-align: center;
+    
+}
+#second-link a:link {
+    color:crimson;
+}
+#second-link a:visited {
+    color: crimson;
+}
+#second-link a:hover {
+    color: blue;
+    
+}
+#second-link a:active {
+    color:crimson;
+}
+
+#third-link {
+    width: 200px;
+    height: 100px;
+    background-color: coral;
+    border:darkgoldenrod solid;
+    transition: width 2s, height 5s, background-color 2s;
+    transition-timing-function: cubic-bezier(0.002, 0.82, 0.865, 1);
+}
+    #third-link:hover {
+        width: 500px;
+        height: 300px;
+        background-color: darkolivegreen;
+    }
